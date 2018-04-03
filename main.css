@@ -1,0 +1,109 @@
+.active1{
+    text-shadow: 2px 2px #9E9E9E;
+}
+
+body{
+    padding-top: 50px;
+    font-family:Arial;
+    background-color:#FFFFFF;
+    color:#000000;
+}
+.body2{
+    background-color:#FFFFFF;
+    color:#000000;
+}
+
+.footer2{
+    text-align: center;
+    background-color:#D7D7D7;
+    font-size:14px;
+    color:#000000;
+}
+.footer3{
+    font-size:10px;
+    color:#000000;
+}
+.logo{
+    margin-top:-11px;
+    height:43px;
+
+}
+.navbar-main{
+    background-color:#FFFFFF;
+}
+.navbar .nav > li > a{
+    color:#000000;
+}
+.navbar{
+    border:none;
+}
+.spantitle{
+    color:#000000;
+}
+.txt1{
+    font-size:19px;
+}
+.skanderbeg{
+    margin-left:auto;
+    margin-right:auto;
+    width: inherit;
+    display:block;
+}
+
+.resturang{
+    width:100%;
+}
+
+.text1, .text2, .booking{
+    padding-bottom:80px;
+}
+
+ol, ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    vertical-align: middle;
+}
+a:hover, a:focus, a:active {
+    color: #999;
+    text-decoration: none;
+}
+a {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #000;
+}
+a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+a:active::before {
+    background-color: #000;
+}
+a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
